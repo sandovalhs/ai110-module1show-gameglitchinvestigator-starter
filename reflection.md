@@ -46,14 +46,20 @@ Yes, I asked if it agreed with the problem I indentified and it helped me come u
 ## 4. What did you learn about Streamlit and state?
 
 - In your own words, explain why the secret number kept changing in the original app.
+The secret number was set to randint and it would change after every guess
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+session state is like a global variable for that iteration and the reruns refresh the global variables similar to react's use state.
 - What change did you make that finally gave the game a stable secret number?
+I fixed the secret so that it did not update after the other variables changed.
 
 ---
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
+I liked how i can use ai to refactor quickly because it makes my code a lot cleaner and helps make functions generic if necessary.
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
+I would want use the ai to help understand the code more instead of doing most of the thinking on my own.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+This has made me see how much faster ai can help me write code and fix things.  I am surprised at how good it is and how well it turn natural language into correct responses and fixes to code.

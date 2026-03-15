@@ -26,12 +26,15 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+This is a game of higher or lower, the player tries to guess the correct number in the fewest amount of guesses
 - [ ] Detail which bugs you found.
+There were bugs on creating a new game, giving the wrong hints, and the game difficulty was not functional.
 - [ ] Explain what fixes you applied.
+I fixed the game difficulty, the hints, and the new game function.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+![Demo](image.png)
 
 ## 🚀 Stretch Features
 
