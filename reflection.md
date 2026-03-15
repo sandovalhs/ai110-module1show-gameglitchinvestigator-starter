@@ -51,7 +51,6 @@ The secret number was set to randint and it would change after every guess
 session state is like a global variable for that iteration and the reruns refresh the global variables similar to react's use state.
 - What change did you make that finally gave the game a stable secret number?
 I fixed the secret so that it did not update after the other variables changed.
-
 ---
 
 ## 5. Looking ahead: your developer habits
